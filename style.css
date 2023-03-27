@@ -1,0 +1,497 @@
+@charset "utf-8";
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Roboto, "Roboto Black";
+}
+body, html{
+	overflow-x: hidden;
+}
+
+a{
+	text-decoration: none;
+}
+/*.......Home......*/
+header{
+	width: 100vw;
+	height: 100vh;
+	background-image: url("Image/backpacker-standing-sunrise-viewpoint-ja-bo-village-mae-hong-son-province-thailand.jpg");
+	background-position: bottom;
+	background-size: cover;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	
+}
+
+.header-contant{
+	margin-bottom: 150px;
+	color: whitesmoke;
+	text-align: center;
+	
+}
+
+.header-contant h2{
+	font-size: 4vmin;
+}
+.line{
+	width: 150px;
+	height: 4px;
+	background: rgba(89,224,94,1.00);
+	margin: 10px auto;
+	border-radius: 5px;
+}
+.header-contant h1{
+	font-size: 7vmin;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	text-shadow: 0px 1px 0px #ccc;
+	text-shadow: 0px 2px 0px #ccc;
+	text-shadow: 0px 3px 0px #ccc;
+	
+	
+}
+.btn{
+	padding: 8px 15px;
+	background:  rgba(89,224,94,1.00);
+	border-radius: 20px;
+	color: black;
+	text-decoration: none;
+}
+.btn:hover{
+	border: 2px solid rgba(7,83,41,1.00);
+}
+ul{
+	list-style: none;
+}
+.navbar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	padding: 20px;
+	color: whitesmoke;
+}
+.logo img{
+	width: 70px;
+	height: 80px;
+	
+	
+}
+.nav-link{
+	display: flex;
+	align-items: center;
+}
+.nav-link li{
+	margin: 0 30px;
+	color: whitesmoke;
+}
+.nav-link li a{
+	color: whitesmoke;
+}
+.nav-link li a:hover{
+	color: rgba(245,156,254,1.00);
+
+}
+
+.menu-btn{
+	position: absolute;
+    top: 30px;
+	right: 30px;
+	width: 40px;
+	height: 30px;
+	cursor: pointer;
+	display: none;
+}
+
+section{
+	width: 80%;
+	margin: 80px auto;
+	
+}
+.title{
+	text-align: center;
+	font-size: 4vmin;
+	color: black;
+		text-shadow: 0px 1px 0px #ccc;
+	text-shadow: 0px 2px 0px #ccc;
+	text-shadow: 0px 3px 0px #ccc;
+	text-shadow: 0px 4px 0px #ccc;
+	text-shadow: 0px 5px 0px #ccc;
+}
+.row{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: space-between;
+	
+}
+.row .col{
+	width: 80%;
+	flex-direction: column;
+	align-items: center;
+}
+.events .row{
+	margin-top: 50px;
+}
+h4{
+	font-size: 3.5vmin;
+	color:black;
+	margin: 20px 130px;
+}
+p{
+	color: gray;
+	padding: 0px 40px;
+	margin-bottom: 20px;
+}
+
+.events .btn{
+	margin-top: 100px;
+	margin-left: 140px;
+}
+
+.explore{
+	width: 100%;
+	height: 100vh;
+	background-image: url( "Image/tourist-from-mountain-top-sun-rays-man-wear-big-backpack-against-sun-light.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+}
+.explore .line{
+	
+}
+.explore-contant{
+	width: 50%;
+	height: 50px;
+	color: whitesmoke;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	
+}
+
+.explore-contant h1{
+	font-size: 7vmin;
+	margin: 200px 50px 20px 50px ;
+	text-shadow: 0px 1px 0px #ccc;
+	text-shadow: 0px 2px 0px #ccc;
+	text-shadow: 0px 3px 0px #ccc;
+	text-shadow: 0px 4px 0px #ccc;
+	text-shadow: 0px 5px 0px #ccc;
+}
+.explore-contant .line{
+     margin-bottom: 20px;
+}
+
+.explore-contant p{
+	color: black;
+	margin-bottom: 20px;
+}
+.explore-contant .btn{
+	margin-top: 20px;
+}
+
+.tour .row .col{
+	width: 50%;
+}
+
+.contant-col{
+	
+	width: 40%;
+}
+
+.image-col{
+	width: 60%;
+}
+.tour .image-gallery
+{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	align-items: center;
+}
+.image-gallery img{
+	width: 200px;
+	height: 150px;
+	margin: 10px;
+}
+
+.contant-col h1{
+	font-size: 8vmin;
+	color: #484872;
+}
+.contant-col .line{
+	margin-left: -1px;
+}
+.contant-col p{
+	padding: 0;
+	margin: 30px auto;
+}
+.contant-col .btn{
+	margin-left: 100px;
+}
+
+
+.fooder{
+	width: 100%;
+	height: 200px;
+	padding: 20px 80px;
+	margin: 0;
+	background: #484872;
+	text-align: center;
+}
+.fooder p{
+	color: whitesmoke;
+	margin: 20px auto;
+	padding: 20px auto;
+}
+
+
+/*Mobile*/
+
+
+
+@media only screen and (max-width:750px){
+	
+	.navbar{
+		padding: 0;
+		
+	}
+	.logo img{
+		position: absolute;
+		top: 30px;
+		left: 30px;
+	}
+	.nav-link{
+		flex-direction: column;
+		width: 100%;
+		height: 100vh;
+		justify-content: center;
+		background:  rgba(54,86,131,1.00);
+		margin-top: -900px;
+		transition: all 0.5s ease;
+	}
+	.mobile-menu{
+		margin-top: 0px;
+		border-bottom-right-radius: 30%;
+	}
+	.nav-link li{
+		margin: 30px auto;
+	}
+	.menu-btn{
+		display: block;
+		margin-top: 20px;
+	}
+	
+	
+	
+	/*......events.........*/
+	
+	.row{
+		flex-direction: column;
+	}
+	
+	.row .col{
+		margin: 20px auto;
+	}
+	h4{
+		text-align: center;
+		
+	}
+	.col img{
+		max-width: 90%;
+	}
+	
+	/* .........Explore............*/
+	
+	
+	.explore-contant{
+		width: 100%;
+	}
+	.tour .col{
+		width: 100%;
+	}
+	.image-gallery{
+		justify-content: center;
+		align-content: center;
+	}
+	.image-gallery img{
+		width: 80%;
+	}
+	.fooder{
+		padding: 10px;
+	}
+}
+
+
+
+@media only screen and (max-width:400px){
+	
+	.navbar{
+		padding: 0;
+		
+	}
+	.logo img{
+		position: absolute;
+		top: 30px;
+		left: 30px;
+	}
+	.nav-link{
+		flex-direction: column;
+		width: 100%;
+		height: 100vh;
+		justify-content: center;
+		background:  rgba(54,86,131,1.00);
+		margin-top: -900px;
+		transition: all 0.5s ease;
+	}
+	.mobile-menu{
+		margin-top: 0px;
+		border-bottom-right-radius: 30%;
+	}
+	.nav-link li{
+		margin: 30px auto;
+	}
+	.menu-btn{
+		display: block;
+		margin-top: 20px;
+	}
+	
+	
+	
+	/*......events.........*/
+	
+	.row{
+		flex-direction: column;
+	}
+	
+	.row .col{
+		margin: 20px auto;
+	}
+	h4{
+		text-align: center;
+		
+	}
+	.col img{
+		max-width: 90%;
+	}
+	
+	/* .........Explore............*/
+	.row{
+		flex-direction: column;
+	}
+	
+	.row .col{
+		margin: 20px auto;
+	}
+	h4{
+		text-align: center;
+		
+	}
+	.col img{
+		max-width: 90%;
+	}
+	
+	/* .........Explore............*/
+	
+	
+	.explore-contant{
+		width: 100%;
+	}
+	.tour .col{
+		width: 100%;
+	}
+	.image-gallery{
+		justify-content: center;
+		align-content: center;
+	}
+	.image-gallery img{
+		width: 80%;
+	}
+	.fooder{
+		padding: 10px;
+	}
+	.events .btn{
+		margin-left: 30px;
+	}
+	
+	.btn{
+		align-items: center;
+		justify-content: center;
+	}
+	
+	p{
+		text-align: center;
+	}
+	h1{
+		text-align: center;
+	}
+	h2{
+		text-align: center;
+	}
+	h4{
+		margin-left: -2px;
+		flex-direction: row;
+	}
+	.explore-contant .btn{
+		margin-top: 0px;
+		
+	}
+	
+	.contant-col .btn{
+		margin-left: 25px;
+	}
+	.contant-col p{
+		width: 120%;
+		justify-content: center;
+		text-align: center;
+		margin: auto;
+		overflow: hidden;
+	}
+	.contant-col .btn{
+		margin-left: 15px;
+		margin-top: 20px;
+	}
+	
+} 
+
+
+
+
+
+
+/**/
+img{
+	transition: transform .3s ease;
+}
+
+img:hover
+{
+	transform: scale(1.1);
+}
+
+.btn:hover{
+	background: white;
+	color: green;
+	box-shadow: 2px 2px 5px 4px #00000056;
+}
+li:hover{
+	cursor: pointer
+}
+
+
+
+
+
+
+
+
+
+
+
